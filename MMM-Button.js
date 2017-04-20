@@ -7,6 +7,7 @@
  */
 
 Module.register('MMM-Button',{	
+	requiresVersion: "2.1.0",
 	defaults: {
 		buttonPIN: 5,
 		//time in miliseconds before another button click is recognized
