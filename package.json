@@ -18,7 +18,13 @@
     "url": "https://github.com/ptrbld/MMM-Button/issues"
   },
   "homepage": "https://github.com/ptrbld/MMM-Button#readme",
+  "scripts": {
+    "postinstall": "node_modules/.bin/electron-rebuild -e ../../node_modules/electron"
+  },
   "dependencies": {
     "onoff": "latest"
-    }
+    },
+	"devDependencies": {
+    "electron-rebuild": "^1.2.1"
+  }
 }
