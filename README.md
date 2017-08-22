@@ -35,7 +35,7 @@ The following properties can be configured:
 	<tbody>
 		<tr>
 			<td><code>buttonPIN</code></td>
-			<td>The pin your button is connected to. [How to connect a button](https://developer.microsoft.com/de-de/windows/iot/win10/samples/PushButton.htm)<br>
+			<td>The pin your button is connected to. [How to connect a button](http://razzpisampler.oreilly.com/ch07.html)<br>
 				<br><b>Possible values:</b> <code>int</code>
 				<br><b>Default value:</b> <code>5</code>
 			</td>
@@ -59,11 +59,11 @@ This module broadcasts a `BUTTON_PRESSED` notification with the payload beeing `
 The MIT License (MIT)
 =====================
 
-Copyright © 2016 PtrBld
+Copyright ¬© 2016 PtrBld
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
-files (the ìSoftwareî), to deal in the Software without
+files (the ‚ÄúSoftware‚Äù), to deal in the Software without
 restriction, including without limitation the rights to use,
 copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the
@@ -73,4 +73,4 @@ conditions:
 The above copyright notice and this permission notice shall be
 included in all copies or substantial portions of the Software.
 
-**The software is provided ìas isî, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.**
+**The software is provided ‚Äúas is‚Äù, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.**
