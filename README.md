@@ -6,7 +6,8 @@ Special thanks goes to [Paviro](https://github.com/paviro) as this module is hea
 2. Execute `npm install` to install the node dependencies.
 
 ## Using the module
-First of all connect a button to your Raspberry PI: [How to connect a button](http://razzpisampler.oreilly.com/ch07.html)
+First of all connect a button to your Raspberry PI: [How to connect a button.](http://razzpisampler.oreilly.com/ch07.html)
+
 To use this module, add it to the modules array in the `config/config.js` file:
 ````javascript
 modules: [
