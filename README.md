@@ -6,7 +6,7 @@ Special thanks goes to [Paviro](https://github.com/paviro) as this module is hea
 2. Execute `npm install` to install the node dependencies.
 
 ## Using the module
-
+First of all connect a button to your Raspberry PI: [How to connect a button](http://razzpisampler.oreilly.com/ch07.html)
 To use this module, add it to the modules array in the `config/config.js` file:
 ````javascript
 modules: [
@@ -35,7 +35,7 @@ The following properties can be configured:
 	<tbody>
 		<tr>
 			<td><code>buttonPIN</code></td>
-			<td>The pin your button is connected to. [How to connect a button](http://razzpisampler.oreilly.com/ch07.html)<br>
+			<td>The pin your button is connected to.<br>
 				<br><b>Possible values:</b> <code>int</code>
 				<br><b>Default value:</b> <code>5</code>
 			</td>
