@@ -48,11 +48,18 @@ The following properties can be configured:
 				<br><b>Default value:</b> <code>500</code>
 			</td>
 		</tr>
+		<tr>
+			<td><code>notificationMessage</code></td>
+			<td>The message broadcasted to other modules<br>
+				<br><b>Possible values:</b> <code>string</code>
+				<br><b>Default value:</b> <code>BUTTON_PRESSED</code>
+			</td>
+		</tr>
 	</tbody>
 </table>
 
 ## Developer Notes
-This module broadcasts a `BUTTON_PRESSED` notification with the payload beeing `true` you can use it to show/hide your module (e.g. [MMM-Podcast](https://github.com/ptrbld/MMM-Podcast)).
+This module broadcasts a `BUTTON_PRESSED` (as default; specified in the module config) notification with the payload beeing `true` you can use it to show/hide your module (e.g. [MMM-Podcast](https://github.com/ptrbld/MMM-Podcast)).
 
 ## Dependencies
 - [onoff](https://www.npmjs.com/package/onoff) (installed via `npm install`)
