@@ -25,7 +25,7 @@ module.exports = NodeHelper.create({
 		  // 1 == pressed, 0 == not pressed
 		  if(state == 1) {
 			// send notification for broadcast
-			self.sendSocketNotification("BUTTON_PRESSED", true);
+			self.sendSocketNotification(this.config.notificationMessage, true);
 			console.log("button pressed");
 			}
 		});          
