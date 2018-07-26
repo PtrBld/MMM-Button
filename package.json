@@ -1,6 +1,6 @@
 {
   "name": "Magic-Mirror-Module-Button",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "When clicking the button a broadcast message is send to every module. Thereby any module can react to the button click if needed.",
   "repository": {
     "type": "git",
