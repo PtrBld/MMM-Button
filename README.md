@@ -1,5 +1,5 @@
 # MMM-Button
-This an extension for the [MagicMirror](https://github.com/MichMich/MagicMirror). It can monitor a button click and change for example the visibility of some of your modules (at the moment just works with my [MMM-Podcast](https://github.com/ptrbld/MMM-Podcast) module).
+This is an extension for the [MagicMirror](https://github.com/MichMich/MagicMirror). It can monitor a button click and change for example the visibility of some of your modules (at the moment just works with my [MMM-Podcast](https://github.com/ptrbld/MMM-Podcast) module).
 Special thanks goes to [Paviro](https://github.com/paviro) as this module is heavily based on his [PIR-Sensor](https://github.com/paviro/MMM-PIR-Sensor) module.
 ## Installation
 1. Navigate into your MagicMirror's `modules` folder and execute `git clone https://github.com/ptrbld/MMM-Button.git`. A new folder will appear navigate into it.
