@@ -17,7 +17,7 @@ Module.register('MMM-Button',{
 	// Override socket notification handler.
 	socketNotificationReceived: function(notification, payload) {
 		if (notification === this.config.notificationMessage){
-			this.sendNotification(this.config.notificationMessage, payload)
+			this.sendNotification(this.config.notificationMessage, payload);
 		}
 	},	
 	start: function() {
