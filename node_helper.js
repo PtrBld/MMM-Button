@@ -17,7 +17,7 @@ module.exports = NodeHelper.create({
 		const self = this;
 		this.config = payload;	  
 		var GPIO = require('onoff').Gpio;
-		var button = new GPIO(this.config.buttonPIN, 'in', 'both',{ persistentWatch: true, debounceTimeout: this.config.clickDelay });
+		let button = new GPIO(this.config.buttonPIN, 'in', 'both',{ persistentWatch: true, debounceTimeout: this.config.clickDelay });
 		button.watch(function(err, state) {
 			// check the state of the button; 1 == pressed, 0 == not pressed
 			if(state == 1) {
